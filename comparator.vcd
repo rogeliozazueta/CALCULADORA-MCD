@@ -1,0 +1,73 @@
+$date
+  Sat May 09 22:31:33 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 4 ! x[3:0] $end
+$var reg 4 " y[3:0] $end
+$var reg 4 # r[3:0] $end
+$var reg 1 $ xy_eq $end
+$var reg 1 % xy_gt $end
+$var reg 1 & xy_lt $end
+$scope module uut $end
+$var reg 4 ' x[3:0] $end
+$var reg 4 ( y[3:0] $end
+$var reg 1 ) xy_eq $end
+$var reg 1 * xy_gt $end
+$var reg 1 + xy_lt $end
+$var reg 4 , r[3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0000 "
+b0000 #
+1$
+0%
+0&
+b0000 '
+b0000 (
+1)
+0*
+0+
+b0000 ,
+#10000000
+b0100 !
+b0100 "
+b0100 #
+b0100 '
+b0100 (
+b0100 ,
+#20000000
+b1010 !
+b0111 "
+b0000 #
+0$
+1%
+b1010 '
+b0111 (
+0)
+1*
+b0000 ,
+#30000000
+b0101 !
+b1100 "
+0%
+1&
+b0101 '
+b1100 (
+0*
+1+
+#40000000
+b0000 !
+b0000 "
+1$
+0&
+b0000 '
+b0000 (
+1)
+0+
